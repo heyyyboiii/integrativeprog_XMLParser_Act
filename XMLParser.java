@@ -13,11 +13,11 @@ public class XMLParser {
      */
     public static void main(String[] args) {
         MyXMLParser XMLParser = new MyXMLParser();
-        XMLParser.parseXML("C:\\Users\\klbmercado\\Documents\\NetBeansProjects\\XMLParser\\foodmenu.xml", "food");
+        XMLParser.parseXML("filename", "food");
         System.out.println("----------------------------------------------------------------------------------------");
-        XMLParser.parseXML("C:\\Users\\klbmercado\\Documents\\NetBeansProjects\\XMLParser\\cd_catalog.xml", "CD");
+        XMLParser.parseXML("filename", "CD");
         System.out.println("----------------------------------------------------------------------------------------");
-        XMLParser.parseXML("C:\\Users\\klbmercado\\Documents\\NetBeansProjects\\XMLParser\\plant_catalog.xml", "PLANT");
+        XMLParser.parseXML("filename", "PLANT");
     }
 }
 
